@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1">
+	<title>Ego Boost: Encouragement for everybody</title>
+	<script src="http://use.edgefonts.net/hammersmith-one.js"></script>
+</head>
+
+<body>
+<nav id="menu" class="panel" role="navigation">
+	<br><img src="egologo.png" />
+	<p>Encouraging one-liners to boost your ego and get you through the day.</p>
+
+	<p>Pop culture inspired. Mobile-friendly and body positive. Made by <a href="http://www.twitter.com/melody_gordon">@melody_gordon</a></p>
+</nav>
+
+<div id="navigation">
+	<a href="#menu" class="menu-link"><b>&#9776;</b></a><br><br>
+</div>
+
+<div id="random">
+<form id="randomizer" method="post">
+
+<br><input type="submit" name="submit" value="Give Me A Boost"></input> 
+
+	<p>
+      <div id="answers" class="responsive_headline">
+      </div>
+	</p>
+</form>
+
+</div>
+
+	<link rel="stylesheet" href="style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+	<script src="jquery.big-slide.js"></script>
+	<script src="jquery.fittext.js"></script>
+	<script src="magic8.js"></script>
+
+	<script>
+    $(document).ready(function() {
+        $('.menu-link').bigSlide();
+    });
+
+    jQuery(".responsive_headline").fitText(1.2, { minFontSize: '50px', maxFontSize: '80px' });
+	</script>
+</body>
+
+</html>

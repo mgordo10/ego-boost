@@ -1,0 +1,81 @@
+a {
+    text-decoration: none;
+    color: #FFF58A;
+    font-family: hammersmith-one, Georgia, serif;
+}
+
+p {
+    font-family: Georgia, serif;
+    padding-right: 10px;
+}
+
+body {
+    background: url(eb4.png) no-repeat center fixed;
+    background-color: #000;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-name: fontfix;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0.1s;
+}
+
+@-webkit-keyframes fontfix {
+  from { opacity: 1; }
+  to { opacity: 1; }
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#answers {
+    color: #FFF58A;
+    font-family: hammersmith-one, Arial, sans-serif;
+    font-size: 80px;
+    padding-top: 15px;
+    padding-left: 2px;
+}
+
+form {
+    font-family: Georgia, sans-serif;
+    font-size: 16px;
+    color: #FFF58A;
+    text-align: center;
+}
+
+#menu {
+    padding-left: 9px;
+    background-color: #FFF58A;
+}
+
+#menu a {
+    color: #000;
+}
+
+#navigation {
+    font-size: 34px;
+    float: right;
+    padding: 2px 2px;
+}
+
+#random {
+    padding-top: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+input {
+    background-color: transparent;
+    border: 0; 
+    color: #FFF58A;
+    padding-top: 10px;
+    font-family: hammersmith-one, Arial; 
+    font-size: 20px;
+}
+
+.panel {
+    position: fixed;
+    left: -15.625em; /*left or right and the width of your navigation panel*/
+    width: 15.625em; /*should match the above value*/
+}
